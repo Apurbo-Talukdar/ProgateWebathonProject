@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  width: 100%;
+  font-family: "Lucida Grande";
+}
+
+a{
+	text-decoration:none;
+}
+
+.top-section{
+	 padding-top: 200px;
+     padding-bottom: 700px;
+     color: white;
+	 background-image: url(image.jpg);
+     background-size: cover;
+     width: 100%;
+    
+    
+    
+}
+.top-section h1{
+	opacity: 1;
+	font-size:70px;
+	letter-spacing:5px;
+	margin-bottom: 20px;
+	font-style: italic;
+
+}
+
+.top-section p{
+	opacity:1;
+	font-size:40px;
+	margin-bottom: 7px;
+	font-style: oblique 40deg;
+}
+.container{
+	width:1170px;
+	padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.header{
+	background-color:#4d3626;
+	color:#fff;
+	margin-top: 0px;
+	height: 60px;
+}
+.header-logo{
+	font-size: 40px;
+	float: left;
+	padding: 10px 10px;
+}
+li{
+	list-style: none;
+	float:left;
+	padding: 20px 40px;
+}
+.btn{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color:white;
+  display: inline-block;
+  opacity: 1;
+  border-radius: 20px;
+}
+.btn-holder{
+	margin-top: 170px;
+	margin-bottom: 170px;
+}
+
+.order{
+	background-color:#90303d;
+}
+.footer{
+	background-color: #4d3626;
+	height: 100px;
+	color:#fff;
+	padding:40px;
+}
+
+.footer-logo{
+	font-size: 40px;
+	float:left;
+}
+
+.footer-list{
+	float:right;
+}
+
+.footer-list li{
+	padding-bottom: 20px;
+}
+.btn:hover{
+	opacity: 0.8;
+}
+
+.header-list li{
+	float:right;
+	/*background-color: rgba(255, 255, 255, 0.3);*/
+	transition: all 0.5s;
+}
+
+.header-list li:hover{
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-list li{
+  line-height: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color:white;
+  display: block;
+}
+
+.footer-list{
+	float:right;
+	transition: all 0.5s;
+}
+
+.footer-list li:hover{
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-list li{
+	line-height: 20px;
+	padding-left: 30px;
+	padding-right:30px;
+	color:white;
+	display:block;
+}
+
+.btn-wrapper1{
+	margin-top: 170px;
+	margin-bottom: 170px;
+}
+
+.menu{
+	background-color:#90303d;
+}
+
+@media screen and (max-width:99px){
+	.top-section{
+		width: 100%;
+	}
+
+}
